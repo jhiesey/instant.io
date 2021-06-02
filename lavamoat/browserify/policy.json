@@ -1,0 +1,649 @@
+{
+  "resources": {
+    "bencode": {
+      "globals": {
+        "console.trace": true,
+        "console.warn": true
+      },
+      "packages": {
+        "safe-buffer": true
+      }
+    },
+    "bittorrent-protocol": {
+      "globals": {
+        "clearInterval": true,
+        "clearTimeout": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "bencode": true,
+        "bitfield": true,
+        "buffer": true,
+        "debug": true,
+        "randombytes": true,
+        "readable-stream": true,
+        "speedometer": true,
+        "unordered-array-remove": true
+      }
+    },
+    "bittorrent-tracker": {
+      "globals": {
+        "URL": true,
+        "clearInterval": true,
+        "clearTimeout": true,
+        "location.protocol": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "browser-resolve": true,
+        "buffer": true,
+        "debug": true,
+        "events": true,
+        "once": true,
+        "process": true,
+        "queue-microtask": true,
+        "randombytes": true,
+        "run-parallel": true,
+        "simple-peer": true,
+        "simple-websocket": true
+      }
+    },
+    "blob-to-buffer": {
+      "globals": {
+        "Blob": true,
+        "FileReader": true
+      },
+      "packages": {
+        "buffer": true
+      }
+    },
+    "block-stream2": {
+      "packages": {
+        "buffer": true,
+        "readable-stream": true
+      }
+    },
+    "buffer": {
+      "globals": {
+        "console": true
+      },
+      "packages": {
+        "base64-js": true,
+        "ieee754": true
+      }
+    },
+    "buffer-alloc": {
+      "packages": {
+        "buffer": true,
+        "buffer-alloc-unsafe": true,
+        "buffer-fill": true
+      }
+    },
+    "buffer-alloc-unsafe": {
+      "packages": {
+        "buffer": true
+      }
+    },
+    "buffer-fill": {
+      "packages": {
+        "buffer": true
+      }
+    },
+    "chunk-store-stream": {
+      "packages": {
+        "block-stream2": true,
+        "readable-stream": true
+      }
+    },
+    "cpus": {
+      "globals": {
+        "navigator.hardwareConcurrency": true
+      }
+    },
+    "create-torrent": {
+      "globals": {
+        "Blob": true,
+        "FileList": true
+      },
+      "packages": {
+        "bencode": true,
+        "block-stream2": true,
+        "browser-resolve": true,
+        "buffer": true,
+        "filestream": true,
+        "junk": true,
+        "multistream": true,
+        "once": true,
+        "path-browserify": true,
+        "piece-length": true,
+        "queue-microtask": true,
+        "readable-stream": true,
+        "run-parallel": true,
+        "simple-sha1": true
+      }
+    },
+    "date-fns": {
+      "globals": {
+        "console": true
+      }
+    },
+    "debug": {
+      "globals": {
+        "console": true,
+        "document": true,
+        "localStorage": true,
+        "navigator": true,
+        "process": true
+      },
+      "packages": {
+        "ms": true,
+        "process": true
+      }
+    },
+    "drag-drop": {
+      "globals": {
+        "document.querySelector": true
+      },
+      "packages": {
+        "run-parallel": true
+      }
+    },
+    "end-of-stream": {
+      "packages": {
+        "once": true,
+        "process": true
+      }
+    },
+    "events": {
+      "globals": {
+        "console": true
+      }
+    },
+    "filestream": {
+      "globals": {
+        "FileReader": true
+      },
+      "packages": {
+        "readable-stream": true,
+        "typedarray-to-buffer": true
+      }
+    },
+    "get-browser-rtc": {
+      "globals": {
+        "RTCIceCandidate": true,
+        "RTCPeerConnection": true,
+        "RTCSessionDescription": true,
+        "mozRTCIceCandidate": true,
+        "mozRTCPeerConnection": true,
+        "mozRTCSessionDescription": true,
+        "webkitRTCIceCandidate": true,
+        "webkitRTCPeerConnection": true,
+        "webkitRTCSessionDescription": true
+      }
+    },
+    "https-browserify": {
+      "packages": {
+        "stream-http": true,
+        "url": true
+      }
+    },
+    "immediate-chunk-store": {
+      "packages": {
+        "queue-microtask": true
+      }
+    },
+    "jszip": {
+      "globals": {
+        "Blob": true,
+        "BlobBuilder": true,
+        "FileReader": true,
+        "MSBlobBuilder": true,
+        "MozBlobBuilder": true,
+        "WebKitBlobBuilder": true,
+        "define": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "buffer": true,
+        "timers-browserify": true
+      }
+    },
+    "lt_donthave": {
+      "packages": {
+        "buffer": true,
+        "debug": true,
+        "events": true,
+        "unordered-array-remove": true
+      }
+    },
+    "magnet-uri": {
+      "packages": {
+        "bep53-range": true,
+        "buffer": true,
+        "thirty-two": true
+      }
+    },
+    "mediasource": {
+      "globals": {
+        "Blob": true,
+        "MediaSource": true,
+        "URL.createObjectURL": true,
+        "URL.revokeObjectURL": true,
+        "document.createElement": true
+      },
+      "packages": {
+        "inherits": true,
+        "readable-stream": true,
+        "to-arraybuffer": true
+      }
+    },
+    "memory-chunk-store": {
+      "packages": {
+        "queue-microtask": true
+      }
+    },
+    "mp4-box-encoding": {
+      "packages": {
+        "buffer": true,
+        "uint64be": true
+      }
+    },
+    "mp4-stream": {
+      "packages": {
+        "buffer": true,
+        "mp4-box-encoding": true,
+        "next-event": true,
+        "queue-microtask": true,
+        "readable-stream": true
+      }
+    },
+    "multistream": {
+      "packages": {
+        "once": true,
+        "readable-stream": true
+      }
+    },
+    "once": {
+      "packages": {
+        "wrappy": true
+      }
+    },
+    "parse-torrent": {
+      "globals": {
+        "Blob": true
+      },
+      "packages": {
+        "bencode": true,
+        "blob-to-buffer": true,
+        "browser-resolve": true,
+        "buffer": true,
+        "magnet-uri": true,
+        "path-browserify": true,
+        "queue-microtask": true,
+        "simple-get": true,
+        "simple-sha1": true
+      }
+    },
+    "path-browserify": {
+      "packages": {
+        "process": true
+      }
+    },
+    "process": {
+      "globals": {
+        "clearTimeout": true,
+        "setTimeout": true
+      }
+    },
+    "pump": {
+      "packages": {
+        "browser-resolve": true,
+        "end-of-stream": true,
+        "once": true,
+        "process": true
+      }
+    },
+    "punycode": {
+      "globals": {
+        "define": true
+      }
+    },
+    "queue-microtask": {
+      "globals": {
+        "queueMicrotask": true,
+        "setTimeout": true
+      }
+    },
+    "randombytes": {
+      "packages": {
+        "process": true,
+        "safe-buffer": true
+      }
+    },
+    "range-slice-stream": {
+      "packages": {
+        "readable-stream": true
+      }
+    },
+    "readable-stream": {
+      "packages": {
+        "browser-resolve": true,
+        "buffer": true,
+        "events": true,
+        "inherits": true,
+        "process": true,
+        "string_decoder": true,
+        "util-deprecate": true
+      }
+    },
+    "render-media": {
+      "globals": {
+        "MediaSource": true,
+        "document.createElement": true,
+        "document.querySelector": true
+      },
+      "packages": {
+        "debug": true,
+        "is-ascii": true,
+        "mediasource": true,
+        "path-browserify": true,
+        "stream-to-blob-url": true,
+        "videostream": true
+      }
+    },
+    "run-parallel": {
+      "packages": {
+        "queue-microtask": true
+      }
+    },
+    "run-parallel-limit": {
+      "packages": {
+        "queue-microtask": true
+      }
+    },
+    "rusha": {
+      "globals": {
+        "Blob": true,
+        "ENTRY_MODULE": true,
+        "FileReader": true,
+        "FileReaderSync": true,
+        "URL": true,
+        "Worker": true,
+        "console.error": true,
+        "define": true,
+        "mozURL": true,
+        "msURL": true,
+        "onmessage": "write",
+        "postMessage": true,
+        "webkitURL": true
+      }
+    },
+    "safe-buffer": {
+      "packages": {
+        "buffer": true
+      }
+    },
+    "simple-concat": {
+      "packages": {
+        "buffer": true
+      }
+    },
+    "simple-get": {
+      "packages": {
+        "browser-resolve": true,
+        "buffer": true,
+        "https-browserify": true,
+        "once": true,
+        "querystring-es3": true,
+        "simple-concat": true,
+        "stream-http": true,
+        "url": true
+      }
+    },
+    "simple-peer": {
+      "globals": {
+        "clearInterval": true,
+        "console.warn": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "buffer": true,
+        "debug": true,
+        "err-code": true,
+        "get-browser-rtc": true,
+        "queue-microtask": true,
+        "randombytes": true,
+        "readable-stream": true
+      }
+    },
+    "simple-sha1": {
+      "globals": {
+        "queueMicrotask": true
+      },
+      "packages": {
+        "rusha": true
+      }
+    },
+    "simple-websocket": {
+      "globals": {
+        "WebSocket": true,
+        "clearInterval": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "browser-resolve": true,
+        "buffer": true,
+        "debug": true,
+        "queue-microtask": true,
+        "randombytes": true,
+        "readable-stream": true
+      }
+    },
+    "speedometer": {
+      "globals": {
+        "setInterval": true
+      }
+    },
+    "stream-http": {
+      "globals": {
+        "AbortController": true,
+        "Blob": true,
+        "WritableStream": true
+      },
+      "packages": {
+        "buffer": true,
+        "builtin-status-codes": true,
+        "inherits": true,
+        "process": true,
+        "readable-stream": true,
+        "url": true,
+        "xtend": true
+      }
+    },
+    "stream-to-blob": {
+      "globals": {
+        "Blob": true
+      }
+    },
+    "stream-to-blob-url": {
+      "globals": {
+        "URL.createObjectURL": true
+      },
+      "packages": {
+        "stream-to-blob": true
+      }
+    },
+    "stream-with-known-length-to-buffer": {
+      "packages": {
+        "buffer": true,
+        "once": true
+      }
+    },
+    "string_decoder": {
+      "packages": {
+        "safe-buffer": true
+      }
+    },
+    "thirty-two": {
+      "packages": {
+        "buffer": true
+      }
+    },
+    "throttleit": {
+      "globals": {
+        "setTimeout": true
+      }
+    },
+    "thunky": {
+      "packages": {
+        "process": true
+      }
+    },
+    "timers-browserify": {
+      "globals": {
+        "clearInterval": true,
+        "clearTimeout": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "process": true
+      }
+    },
+    "to-arraybuffer": {
+      "packages": {
+        "buffer": true
+      }
+    },
+    "torrent-discovery": {
+      "globals": {
+        "clearTimeout": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "bittorrent-tracker": true,
+        "browser-resolve": true,
+        "debug": true,
+        "events": true,
+        "process": true,
+        "run-parallel": true
+      }
+    },
+    "torrent-piece": {
+      "packages": {
+        "buffer": true
+      }
+    },
+    "typedarray-to-buffer": {
+      "packages": {
+        "buffer": true,
+        "is-typedarray": true
+      }
+    },
+    "uint64be": {
+      "packages": {
+        "buffer-alloc": true
+      }
+    },
+    "upload-element": {
+      "globals": {
+        "FileReader": true
+      }
+    },
+    "url": {
+      "packages": {
+        "punycode": true,
+        "querystring-es3": true
+      }
+    },
+    "ut_metadata": {
+      "packages": {
+        "bencode": true,
+        "bitfield": true,
+        "buffer": true,
+        "debug": true,
+        "events": true,
+        "simple-sha1": true
+      }
+    },
+    "util-deprecate": {
+      "globals": {
+        "console.trace": true,
+        "console.warn": true
+      }
+    },
+    "videostream": {
+      "globals": {
+        "console.warn": true
+      },
+      "packages": {
+        "binary-search": true,
+        "buffer": true,
+        "events": true,
+        "mediasource": true,
+        "mp4-box-encoding": true,
+        "mp4-stream": true,
+        "pump": true,
+        "range-slice-stream": true
+      }
+    },
+    "webtorrent": {
+      "globals": {
+        "Blob": true,
+        "FileList": true,
+        "URL.createObjectURL": true,
+        "clearInterval": true,
+        "clearTimeout": true,
+        "console.warn": true,
+        "location.origin": true,
+        "requestIdleCallback": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "addr-to-ip-port": true,
+        "bitfield": true,
+        "bittorrent-protocol": true,
+        "browser-resolve": true,
+        "buffer": true,
+        "chunk-store-stream": true,
+        "cpus": true,
+        "create-torrent": true,
+        "debug": true,
+        "end-of-stream": true,
+        "events": true,
+        "immediate-chunk-store": true,
+        "lt_donthave": true,
+        "memory-chunk-store": true,
+        "multistream": true,
+        "parse-torrent": true,
+        "path-browserify": true,
+        "process": true,
+        "pump": true,
+        "queue-microtask": true,
+        "random-iterate": true,
+        "randombytes": true,
+        "readable-stream": true,
+        "render-media": true,
+        "run-parallel": true,
+        "run-parallel-limit": true,
+        "simple-concat": true,
+        "simple-get": true,
+        "simple-peer": true,
+        "simple-sha1": true,
+        "speedometer": true,
+        "stream-to-blob": true,
+        "stream-to-blob-url": true,
+        "stream-with-known-length-to-buffer": true,
+        "torrent-discovery": true,
+        "torrent-piece": true,
+        "unordered-array-remove": true,
+        "ut_metadata": true
+      }
+    }
+  }
+}

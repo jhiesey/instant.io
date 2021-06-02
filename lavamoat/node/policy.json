@@ -1,0 +1,655 @@
+{
+  "resources": {
+    "@babel/types": {
+      "globals": {
+        "console.trace": true,
+        "process.env.BABEL_TYPES_8_BREAKING": true
+      },
+      "packages": {
+        "@babel/helper-validator-identifier": true,
+        "to-fast-properties": true
+      }
+    },
+    "accepts": {
+      "packages": {
+        "mime-types": true,
+        "negotiator": true
+      }
+    },
+    "acorn": {
+      "globals": {
+        "define": true
+      }
+    },
+    "asap": {
+      "builtin": {
+        "domain": true
+      },
+      "globals": {
+        "process.domain": "write",
+        "process.nextTick": true,
+        "setImmediate": true
+      }
+    },
+    "async": {
+      "globals": {
+        "console": true,
+        "define": true,
+        "process": true,
+        "setImmediate": true,
+        "setTimeout": true
+      }
+    },
+    "babel-walk": {
+      "packages": {
+        "@babel/types": true
+      }
+    },
+    "body-parser": {
+      "builtin": {
+        "querystring": true,
+        "zlib.createGunzip": true,
+        "zlib.createInflate": true
+      },
+      "packages": {
+        "bytes": true,
+        "content-type": true,
+        "debug": true,
+        "depd": true,
+        "http-errors": true,
+        "iconv-lite": true,
+        "on-finished": true,
+        "qs": true,
+        "raw-body": true,
+        "type-is": true
+      }
+    },
+    "call-bind": {
+      "packages": {
+        "function-bind": true,
+        "get-intrinsic": true
+      }
+    },
+    "character-parser": {
+      "packages": {
+        "is-regex": true
+      }
+    },
+    "compressible": {
+      "packages": {
+        "mime-db": true
+      }
+    },
+    "compression": {
+      "builtin": {
+        "zlib.createDeflate": true,
+        "zlib.createGzip": true
+      },
+      "packages": {
+        "accepts": true,
+        "bytes": true,
+        "compressible": true,
+        "debug": true,
+        "on-headers": true,
+        "safe-buffer": true,
+        "vary": true
+      }
+    },
+    "constantinople": {
+      "packages": {
+        "@babel/parser": true,
+        "@babel/types": true
+      }
+    },
+    "content-disposition": {
+      "builtin": {
+        "path.basename": true
+      },
+      "packages": {
+        "safe-buffer": true
+      }
+    },
+    "cookie-signature": {
+      "builtin": {
+        "crypto.createHash": true,
+        "crypto.createHmac": true
+      }
+    },
+    "cors": {
+      "packages": {
+        "object-assign": true,
+        "vary": true
+      }
+    },
+    "debug": {
+      "builtin": {
+        "fs.SyncWriteStream": true,
+        "net.Socket": true,
+        "tty.WriteStream": true,
+        "tty.isatty": true,
+        "util": true
+      },
+      "globals": {
+        "chrome": true,
+        "console": true,
+        "document": true,
+        "localStorage": true,
+        "navigator": true,
+        "process": true
+      },
+      "packages": {
+        "ms": true
+      }
+    },
+    "depd": {
+      "builtin": {
+        "events.EventEmitter.listenerCount": true,
+        "path.relative": true
+      },
+      "globals": {
+        "process": true
+      }
+    },
+    "destroy": {
+      "builtin": {
+        "fs.ReadStream": true,
+        "stream": true
+      }
+    },
+    "etag": {
+      "builtin": {
+        "crypto.createHash": true,
+        "fs.Stats": true
+      },
+      "globals": {
+        "Buffer.byteLength": true,
+        "Buffer.isBuffer": true
+      }
+    },
+    "express": {
+      "builtin": {
+        "events.EventEmitter.prototype": true,
+        "fs.statSync": true,
+        "http.IncomingMessage.prototype": true,
+        "http.ServerResponse.prototype": true,
+        "http.createServer": true,
+        "net.isIP": true,
+        "path.basename": true,
+        "path.dirname": true,
+        "path.extname": true,
+        "path.join": true,
+        "path.resolve": true,
+        "querystring.parse": true
+      },
+      "globals": {
+        "console.error": true,
+        "process.env.NODE_ENV": true,
+        "setImmediate": true
+      },
+      "packages": {
+        "accepts": true,
+        "array-flatten": true,
+        "body-parser": true,
+        "content-disposition": true,
+        "content-type": true,
+        "cookie": true,
+        "cookie-signature": true,
+        "debug": true,
+        "depd": true,
+        "encodeurl": true,
+        "escape-html": true,
+        "etag": true,
+        "finalhandler": true,
+        "fresh": true,
+        "merge-descriptors": true,
+        "methods": true,
+        "on-finished": true,
+        "parseurl": true,
+        "path-to-regexp": true,
+        "proxy-addr": true,
+        "qs": true,
+        "range-parser": true,
+        "safe-buffer": true,
+        "send": true,
+        "serve-static": true,
+        "setprototypeof": true,
+        "statuses": true,
+        "type-is": true,
+        "utils-merge": true,
+        "vary": true
+      }
+    },
+    "finalhandler": {
+      "globals": {
+        "Buffer.byteLength": true,
+        "process.env.NODE_ENV": true,
+        "process.nextTick": true,
+        "setImmediate": true
+      },
+      "packages": {
+        "debug": true,
+        "encodeurl": true,
+        "escape-html": true,
+        "on-finished": true,
+        "parseurl": true,
+        "statuses": true,
+        "unpipe": true
+      }
+    },
+    "get-intrinsic": {
+      "globals": {
+        "AggregateError": true,
+        "FinalizationRegistry": true,
+        "WeakRef": true
+      },
+      "packages": {
+        "function-bind": true,
+        "has": true,
+        "has-symbols": true
+      }
+    },
+    "has": {
+      "packages": {
+        "function-bind": true
+      }
+    },
+    "http-errors": {
+      "packages": {
+        "depd": true,
+        "inherits": true,
+        "setprototypeof": true,
+        "statuses": true,
+        "toidentifier": true
+      }
+    },
+    "iconv-lite": {
+      "builtin": {
+        "buffer.Buffer": true,
+        "buffer.SlowBuffer.byteLength": true,
+        "buffer.SlowBuffer.prototype.toString": true,
+        "buffer.SlowBuffer.prototype.write": true,
+        "stream.Readable.prototype.collect": true,
+        "stream.Readable.prototype.setEncoding": true,
+        "stream.Transform.call": true,
+        "stream.Transform.prototype": true,
+        "string_decoder.StringDecoder.call": true,
+        "string_decoder.StringDecoder.prototype": true
+      },
+      "globals": {
+        "console.error": true,
+        "process": true
+      },
+      "packages": {
+        "safer-buffer": true
+      }
+    },
+    "inherits": {
+      "builtin": {
+        "util.inherits": true
+      }
+    },
+    "is-core-module": {
+      "globals": {
+        "process.versions": true
+      },
+      "packages": {
+        "has": true
+      }
+    },
+    "is-expression": {
+      "packages": {
+        "acorn": true,
+        "object-assign": true
+      }
+    },
+    "is-regex": {
+      "packages": {
+        "call-bind": true,
+        "has-symbols": true
+      }
+    },
+    "is_js": {
+      "globals": {
+        "DocumentTouch": true,
+        "define": true
+      }
+    },
+    "jstransformer": {
+      "builtin": {
+        "assert": true,
+        "fs.readFile": true,
+        "fs.readFileSync": true
+      },
+      "packages": {
+        "is-promise": true,
+        "promise": true
+      }
+    },
+    "methods": {
+      "builtin": {
+        "http.METHODS": true
+      }
+    },
+    "mime": {
+      "builtin": {
+        "fs.readFileSync": true,
+        "path": true
+      },
+      "globals": {
+        "console.warn": true,
+        "process.env.DEBUG_MIME": true
+      }
+    },
+    "mime-types": {
+      "builtin": {
+        "path.extname": true
+      },
+      "packages": {
+        "mime-db": true
+      }
+    },
+    "on-finished": {
+      "globals": {
+        "process.nextTick": true,
+        "setImmediate": true
+      },
+      "packages": {
+        "ee-first": true
+      }
+    },
+    "parseurl": {
+      "builtin": {
+        "url.Url": true,
+        "url.parse": true
+      }
+    },
+    "path-parse": {
+      "globals": {
+        "process.platform": true
+      }
+    },
+    "promise": {
+      "globals": {
+        "setTimeout": true
+      },
+      "packages": {
+        "asap": true
+      }
+    },
+    "proxy-addr": {
+      "packages": {
+        "forwarded": true,
+        "ipaddr.js": true
+      }
+    },
+    "pug": {
+      "builtin": {
+        "fs.readFileSync": true,
+        "path.extname": true
+      },
+      "globals": {
+        "Buffer.isBuffer": true,
+        "console.error": true,
+        "process.env.NODE_ENV": true
+      },
+      "packages": {
+        "pug-code-gen": true,
+        "pug-filters": true,
+        "pug-lexer": true,
+        "pug-linker": true,
+        "pug-load": true,
+        "pug-parser": true,
+        "pug-runtime": true,
+        "pug-strip-comments": true
+      }
+    },
+    "pug-attrs": {
+      "builtin": {
+        "assert": true
+      },
+      "packages": {
+        "constantinople": true,
+        "js-stringify": true,
+        "pug-runtime": true
+      }
+    },
+    "pug-code-gen": {
+      "packages": {
+        "constantinople": true,
+        "doctypes": true,
+        "js-stringify": true,
+        "pug-attrs": true,
+        "pug-error": true,
+        "pug-runtime": true,
+        "void-elements": true,
+        "with": true
+      }
+    },
+    "pug-filters": {
+      "builtin": {
+        "path.dirname": true
+      },
+      "globals": {
+        "process.cwd": true
+      },
+      "packages": {
+        "constantinople": true,
+        "jstransformer": true,
+        "pug-error": true,
+        "pug-walk": true,
+        "resolve": true
+      }
+    },
+    "pug-lexer": {
+      "builtin": {
+        "assert": true
+      },
+      "packages": {
+        "character-parser": true,
+        "is-expression": true,
+        "pug-error": true
+      }
+    },
+    "pug-linker": {
+      "builtin": {
+        "assert": true
+      },
+      "packages": {
+        "pug-error": true,
+        "pug-walk": true
+      }
+    },
+    "pug-load": {
+      "builtin": {
+        "fs.readFileSync": true,
+        "path.dirname": true,
+        "path.join": true
+      },
+      "packages": {
+        "object-assign": true,
+        "pug-walk": true
+      }
+    },
+    "pug-parser": {
+      "builtin": {
+        "assert": true
+      },
+      "globals": {
+        "console.warn": true
+      },
+      "packages": {
+        "pug-error": true,
+        "token-stream": true
+      }
+    },
+    "pug-runtime": {
+      "builtin": {
+        "fs": true
+      }
+    },
+    "pug-strip-comments": {
+      "packages": {
+        "pug-error": true
+      }
+    },
+    "raw-body": {
+      "globals": {
+        "Buffer.concat": true,
+        "process.nextTick": true
+      },
+      "packages": {
+        "bytes": true,
+        "http-errors": true,
+        "iconv-lite": true,
+        "unpipe": true
+      }
+    },
+    "request-ip": {
+      "packages": {
+        "is_js": true
+      }
+    },
+    "resolve": {
+      "builtin": {
+        "fs.readFile": true,
+        "fs.readFileSync": true,
+        "fs.realpath": true,
+        "fs.realpathSync": true,
+        "fs.stat": true,
+        "fs.statSync": true,
+        "path.dirname": true,
+        "path.join": true,
+        "path.parse": true,
+        "path.relative": true,
+        "path.resolve": true
+      },
+      "globals": {
+        "process.nextTick": true,
+        "process.platform": true,
+        "process.versions": true
+      },
+      "packages": {
+        "is-core-module": true,
+        "path-parse": true
+      }
+    },
+    "rollbar": {
+      "builtin": {
+        "fs.exists": true,
+        "fs.existsSync": true,
+        "fs.readFile": true,
+        "fs.readFileSync": true,
+        "fs.stat": true,
+        "http": true,
+        "https": true,
+        "os.hostname": true,
+        "path.dirname": true,
+        "path.resolve": true,
+        "url": true,
+        "util.inherits": true,
+        "util.isArray": true
+      },
+      "globals": {
+        "Buffer.byteLength": true,
+        "Buffer.from": true,
+        "DOMException": true,
+        "clearInterval": true,
+        "clearTimeout": true,
+        "console": true,
+        "document": true,
+        "navigator": true,
+        "process.argv.concat": true,
+        "process.env.NODE_ENV": true,
+        "process.exit": true,
+        "process.listeners": true,
+        "process.on": true,
+        "process.pid": true,
+        "process.removeListener": true,
+        "process.versions.node.split": true,
+        "setImmediate": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "packages": {
+        "async": true,
+        "json-stringify-safe": true,
+        "lru-cache": true,
+        "request-ip": true,
+        "source-map": true
+      }
+    },
+    "safe-buffer": {
+      "builtin": {
+        "buffer": true
+      }
+    },
+    "safer-buffer": {
+      "builtin": {
+        "buffer": true
+      },
+      "globals": {
+        "process.binding": true
+      }
+    },
+    "send": {
+      "builtin": {
+        "fs.createReadStream": true,
+        "fs.stat": true,
+        "path.extname": true,
+        "path.join": true,
+        "path.normalize": true,
+        "path.resolve": true,
+        "path.sep": true,
+        "stream": true,
+        "util.inherits": true
+      },
+      "globals": {
+        "Buffer.byteLength": true
+      },
+      "packages": {
+        "debug": true,
+        "depd": true,
+        "destroy": true,
+        "encodeurl": true,
+        "escape-html": true,
+        "etag": true,
+        "fresh": true,
+        "http-errors": true,
+        "mime": true,
+        "ms": true,
+        "on-finished": true,
+        "range-parser": true,
+        "statuses": true
+      }
+    },
+    "serve-static": {
+      "builtin": {
+        "path.resolve": true,
+        "url.format": true
+      },
+      "globals": {
+        "Buffer.byteLength": true
+      },
+      "packages": {
+        "encodeurl": true,
+        "escape-html": true,
+        "parseurl": true,
+        "send": true
+      }
+    },
+    "type-is": {
+      "packages": {
+        "media-typer": true,
+        "mime-types": true
+      }
+    },
+    "with": {
+      "packages": {
+        "@babel/parser": true,
+        "@babel/types": true,
+        "assert-never": true,
+        "babel-walk": true
+      }
+    }
+  }
+}

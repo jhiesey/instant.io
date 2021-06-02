@@ -1,0 +1,27 @@
+{
+  "resources": {
+    "webtorrent": {
+      "globals": {
+        "WEBTORRENT_ANNOUNCE": true
+      }
+    },
+    "stream-http": {
+      "globals": {
+        "location": true,
+        "clearTimeout": true,
+        "setTimeout": true,
+        "XMLHttpRequest": true
+      }
+    },
+    "randombytes": {
+      "globals": {
+        "crypto": true
+      }
+    },
+    "simple-sha1": {
+      "globals": {
+        "crypto": true
+      }
+    }
+  }
+}
